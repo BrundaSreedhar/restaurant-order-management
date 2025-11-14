@@ -16,6 +16,15 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'react/prop-types': 'off',
   },
+  overrides: [
+    {
+      files: ['*.config.js', '*.config.cjs'],
+      env: {
+        node: true,
+      },
+    },
+  ],
 }
 

@@ -9,6 +9,7 @@ const menuItems = [
   { id: 6, name: 'Fish & Chips', price: 15.99, description: 'Battered fish with fries' },
   { id: 7, name: 'Chocolate Cake', price: 6.99, description: 'Rich chocolate dessert' },
   { id: 8, name: 'Ice Cream', price: 4.99, description: 'Vanilla ice cream' },
+  { id: 9, name: 'Spaghetti', price: 14.00, description: 'Authentic Spaghetti' },
 ]
 
 function ItemList({ onAddToCart }) {
